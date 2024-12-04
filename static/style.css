@@ -1,0 +1,60 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #bb86fc;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;  /* Aumenta ligeiramente o texto */
+}
+
+.register-link a {
+    color: #bb86fc;  /* Mantém o mesmo roxo do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.register-link a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
